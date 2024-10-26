@@ -1,24 +1,24 @@
 # Power-BI-Sales
 
-**Overview**
+**Overview :**
   This repository contains images of the Power BI dashboards I created. The dashboards offer insights into various performance metrics of companies over recent years. The data is sourced from an Oracle OLAP warehouse, built using Informatica ETL tools, and structured using a star schema in Power BI.
 
-**Database Connection**
+**Database Connection :**
 The Power BI dashboards are connected to an Oracle OLAP warehouse, which serves as the primary data source. The data is picked and built using the star schema methodology.
 
-**ETL Process**
+**ETL Process :**
 The OLAP warehouse is built using Informatica ETL tools and includes:
 
-**Staging Area:** Raw data is loaded from OLTP systems to the staging database.
+**Staging Area :** Raw data is loaded from OLTP systems to the staging database.
 
-**Transformation Techniques:** Various transformation techniques are applied to clean and process the data.
+**Transformation Techniques :** Various transformation techniques are applied to clean and process the data.
 
-**Core Area:** Cleaned and transformed data is moved to the core database, scheduled for regular updates.
+**Core Area :** Cleaned and transformed data is moved to the core database, scheduled for regular updates.
 
-**Star Schema Design**
-  **Fact Table:** : Sales Data and Return Data
+**Star Schema Design :**
+  **Fact Table :** Sales Data and Return Data
 
-  **Dimension Tables:**: Timestamp, Products, Customers, Salesman, Brand, Group, Division
+  **Dimension Tables :** Timestamp, Products, Customers, Salesman, Brand, Group, Division
 
 **Images and Descriptions**
 
