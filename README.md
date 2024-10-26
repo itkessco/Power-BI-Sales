@@ -1,33 +1,34 @@
 # Power-BI-Sales
 
-**Overview :**
-  This repository contains images of the Power BI dashboards I created. The dashboards offer insights into various performance metrics of companies over recent years. The data is sourced from an Oracle OLAP warehouse, built using Informatica ETL tools, and structured using a star schema in Power BI.
+<h3>Overview :</h3>
+  <p>This repository contains images of the Power BI dashboards I created. The dashboards offer insights into various performance metrics of companies over recent years. The data is sourced from an Oracle OLAP warehouse, built using Informatica ETL tools, and structured using a star schema in Power BI.</p>
 
-**Database Connection :**
-The Power BI dashboards are connected to an Oracle OLAP warehouse, which serves as the primary data source. The data is picked and built using the star schema methodology.
+<h3>Database Connection :</h3>
+  <p>The Power BI dashboards are connected to an Oracle OLAP warehouse, which serves as the primary data source. The data is picked and built using the star schema methodology.</p>
 
-**ETL Process :**
-The OLAP warehouse is built using Informatica ETL tools and includes:
+<h3>ETL Process :</h3>
+  <p>The OLAP warehouse is built using Informatica ETL tools and includes: </p>
 
-**Staging Area :** Raw data is loaded from OLTP systems to the staging database.
+  <li><b>Staging Area :</b> Raw data is loaded from OLTP systems to the staging database.</li>
+  
+  <li><b>Transformation Techniques :</b> Various transformation techniques are applied to clean and process the data.</li>
+  
+  <li><b>Core Area :</b> Cleaned and transformed data is moved to the core database, scheduled for regular updates.</li>
 
-**Transformation Techniques :** Various transformation techniques are applied to clean and process the data.
+<h3>Star Schema Design :</h3>
 
-**Core Area :** Cleaned and transformed data is moved to the core database, scheduled for regular updates.
+  <li><b>Fact Table :</b> Sales Data and Return Data</li>
 
-**Star Schema Design :**
-  **Fact Table :** Sales Data and Return Data
-
-  **Dimension Tables :** Timestamp, Products, Customers, Salesman, Brand, Group, Division
+  <li><b>Dimension Tables :</b> Timestamp, Products, Customers, Salesman, Brand, Group, Division</li>
 
 <h2>Images and Descriptions</h2>
 
 <h3>Image 1: Sales Overview</h3>
-  The "Sales Overview" page provides key financial metrics for the years 2020, 2021, and 2022, with 2022 being highlighted as the current focus year.
-  <h4>Key Metrics : </h4> Gross Sales, Discount, Return, Net Sales, COGS (Cost of Goods Sold), Bonus, Gross Profit, GP% (Gross Profit Percentage)
+  <p>The "Sales Overview" page provides key financial metrics for the years 2020, 2021, and 2022, with 2022 being highlighted as the current focus year.
+  <h4>Key Metrics : </h4> Gross Sales, Discount, Return, Net Sales, COGS (Cost of Goods Sold), Bonus, Gross Profit, GP% (Gross Profit Percentage)</p>
 
 <h3>Image 2: Detailed Sales Metrics</h3>
-  The "Detailed Sales Metrics" page provides a deep dive into various sales and performance metrics.
+  <p>The "Detailed Sales Metrics" page provides a deep dive into various sales and performance metrics.</p>
   <h4>Key Metrics : </h4>
   <ul>
     <li>Breakdown by Year </li>
@@ -37,11 +38,11 @@ The OLAP warehouse is built using Informatica ETL tools and includes:
   </ul> 
 
 <h3>Image 3: Sales Dashboard with Sidebar Navigation</h3>
-  The "Sales Dashboard" page provides key performance indicators (KPIs) and metrics related to sales performance. It includes a sidebar menu with various navigation options
-  ans allows easy navigation through various key areas, aiding stakeholders in making informed decisions.
+  <p>The "Sales Dashboard" page provides key performance indicators (KPIs) and metrics related to sales performance. It includes a sidebar menu with various navigation options
+  ans allows easy navigation through various key areas, aiding stakeholders in making informed decisions.</p>
 
 <h3>Image 4: Sales Dashboard for June 2022</h3>
-  The "Sales Dashboard" page provides a detailed breakdown of sales metrics for the month wise, specifically customized filter button is created to filter by the division, item wise and salesman wise.
+  <p>The "Sales Dashboard" page provides a detailed breakdown of sales metrics for the month wise, specifically customized filter button is created to filter by the division, item wise and salesman wise.</p>
 
 <h3>Image 5: Sales Returns Overview</h3>
-  The "Returns Overview" page provides a detailed analysis of returns for the years, segmented by month and brand. It includes graphical representations and tabular data to illustrate the return amounts and     return percentages. It helps in identifying trends, high return rates, and the performance of individual salesmen, which can be crucial for making informed business decisions.
+  <p>The "Returns Overview" page provides a detailed analysis of returns for the years, segmented by month and brand. It includes graphical representations and tabular data to illustrate the return amounts and     return percentages. It helps in identifying trends, high return rates, and the performance of individual salesmen, which can be crucial for making informed business decisions.</p>
