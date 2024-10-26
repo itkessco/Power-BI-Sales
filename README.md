@@ -21,6 +21,8 @@
 
   <li><b>Dimension Tables :</b> Timestamp, Products, Customers, Salesman, Brand, Group, Division</li>
 
+  ![Star Schema Design](https://github.com/itkessco/Power-BI-Sales/blob/main/Star%20Schema.jpg)
+
 <h2>Images and Descriptions</h2>
 
 <h3 style="text-decoration: underline; text-underline-offset: 8px;">Sales Overview</h3>
