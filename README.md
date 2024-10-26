@@ -16,10 +16,11 @@
   <li><b>Core Area :</b> Cleaned and transformed data is moved to the core database, scheduled for regular updates.</li>
 
 <h3 style="text-decoration: underline; text-underline-offset: 8px;">Star Schema Design :</h3>
-
+  <ul>
   <li><b>Fact Table :</b> Sales Data and Return Data</li>
 
   <li><b>Dimension Tables :</b> Timestamp, Products, Customers, Salesman, Brand, Group, Division</li>
+  </ul>
 
   ![Star Schema Design](https://github.com/itkessco/Power-BI-Sales/blob/main/Star%20Schema.jpg)
 
